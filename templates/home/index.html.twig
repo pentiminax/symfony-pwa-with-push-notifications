@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Symfony PWA Notifications{% endblock %}
+
+{% block body %}
+<div class="example-wrapper" {{ stimulus_controller('notification') }}>
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code>/home/pentiminax/youtube/symfony-pwa/src/Controller/HomeController.php</code></li>
+        <li>Your template at <code>/home/pentiminax/youtube/symfony-pwa/templates/home/index.html.twig</code></li>
+    </ul>
+</div>
+{% endblock %}
