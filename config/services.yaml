@@ -1,6 +1,6 @@
 parameters:
-    publicKey: BJ2p_D5hC3P_Ctlpf5p3Ys8gP4xf8qWiK8YzOyfayZBcnPxWdDP3hHmopA9sjmaJhXUQuHW8q9IL3xf2V2o2gDM
-    privateKey: FKi1pbFGnz9ksDGMWaBS8sx2kVQcNv8un2udPYcOX9Q
+    publicKey: '%env(PUBLIC_KEY)%'
+    privateKey: '%env(PRIVATE_KEY)%'
 
 services:
     # default configuration for services in *this* file
